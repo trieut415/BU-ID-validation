@@ -1,4 +1,4 @@
-#include "StringMatching.h"
+#include "IDvalidation.h"
 
 #include <iostream>
 #include <fstream>
@@ -7,7 +7,7 @@
 #include <unordered_map> 
 using namespace std;
 
-int fiveA() {
+int idCheck() {
     ifstream inputFile("BigData.txt");  // Read from the text file
     if (!inputFile.is_open()) {
         cout << "Unable to open the file." << endl;
