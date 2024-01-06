@@ -1,0 +1,1 @@
+This function deterimines the number of BU-ID's in a text file whose digits add to a number greater than 28. A BU-ID is defined as anything starting with a U and followed by exactly 8 digits terminated by a non-digit. 
